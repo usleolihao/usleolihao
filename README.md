@@ -1,9 +1,9 @@
 ### Hi there 👋
 
-- 🔭 I’m currently studying at the University of Arizona ...
-- 🌱 I'm currently learning Graph Neural Network ...
-- 👯 I'm looking to collaborate on research related to Graph Neural Network...
-- 🤔 I’m looking for help with everything...
+- 🔭 I’m currently studying at the University of Arizona.
+- 🌱 I'm currently getting started in machine learning.
+- 👯 I'm looking to collaborate on research related to Graph Neural Network.
+- 🤔 I’m looking for help with everything.
 - 📫 How to reach me: 
   - Email: leolihao@email.arizona.edu
 - 😄 Pronouns: He/Him/His
