@@ -1,5 +1,15 @@
 ### Hi there 👋
 
+- 🔭 I’m currently studying at the University of Arizona ...
+- 🌱 I'm currently learning Graph Neural Network ...
+- 👯 I'm looking to collaborate on research related to Graph Neural Network...
+- 🤔 I’m looking for help with everything...
+- 📫 How to reach me: 
+  - Email: leolihao@email.arizona.edu
+- 😄 Pronouns: He/Him/His
+- ⚡ Fun fact: Otters hold hands when they are asleep so that they don't float away from each other.
+
+
 <!--
 **usleolihao/usleolihao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
