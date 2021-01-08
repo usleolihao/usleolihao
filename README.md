@@ -9,7 +9,7 @@
 - 😄 Pronouns: He/Him/His
 - ⚡ Fun fact: Otters hold hands when they are asleep so that they don't float away from each other.
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=usleolihao)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=usleolihao&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=usleolihao&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
