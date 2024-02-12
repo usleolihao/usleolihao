@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdk 29
+
+    defaultConfig {
+        applicationId "pansong291.xposed.quickenergy.repair"
+        minSdk 21
+        //noinspection ExpiredTargetSdkVersion
+        targetSdk 29
+        versionCode 71
+        versionName "1.2.3-beta12"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    namespace 'pansong291.xposed.quickenergy'
+    applicationVariants.configureEach { variant ->
+        variant.outputs.configureEach { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                if (variant.buildType.name == 'release') {
+                    outputFileName = "xqe-sesame-v${defaultConfig.versionName}.apk"
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    compileOnly 'de.robv.android.xposed:api:82'
+    compileOnly 'de.robv.android.xposed:api:82:sources'
+}
