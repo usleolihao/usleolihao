@@ -1,0 +1,6 @@
+[book]
+authors = ["Lihao"]
+language = "en"
+multilingual = false
+src = "src"
+title = "From Games to Systems: Reverse Engineering Network Security"

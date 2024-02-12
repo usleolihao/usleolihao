@@ -1,0 +1,6 @@
+[book]
+authors = ["Lihao"]
+language = "en"
+multilingual = false
+src = "src"
+title = "ROS for Beginners:Your Guide to Building Robots with Confidence"

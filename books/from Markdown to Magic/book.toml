@@ -1,0 +1,6 @@
+[book]
+authors = ["Lihao"]
+language = "en"
+multilingual = false
+src = "src"
+title = "from Markdown to Magic: Building Stunning Documentation with Frameworks"

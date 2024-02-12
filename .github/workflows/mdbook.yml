@@ -1,0 +1,43 @@
+name: Build and Deploy mdBooks to GitHub Pages
+
+on:
+    push:
+        branches: ['main']
+    workflow_dispatch:
+
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Setup Rust
+              uses: actions-rs/toolchain@v1
+              with:
+                  profile: minimal
+                  toolchain: stable
+                  override: true
+
+            - name: Install mdBook
+              run: cargo install mdbook
+
+            - name: Build and Organize Books
+              run: |
+                  mkdir -p public
+                  echo "<html><head><title>Books Menu</title></head><body><h1>Books</h1><ul>" > public/index.html
+                  for book_dir in books/*; do
+                    if [ -d "$book_dir" ]; then
+                      book_name=$(basename "$book_dir")
+                      echo "Building book: $book_name"
+                      (cd "$book_dir" && mdbook build)
+                      mv "$book_dir/book" "public/$book_name"
+                      echo "<li><a href='$book_name/index.html'>$book_name</a></li>" >> public/index.html
+                    fi
+                  done
+                  echo "</ul></body></html>" >> public/index.html
+
+            - name: Deploy to GitHub Pages
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.DEPLOY_TOKEN }}
+                  publish_dir: ./public
