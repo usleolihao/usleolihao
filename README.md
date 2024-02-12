@@ -9,8 +9,8 @@ problems
 
 -   :chart_with_upwards_trend: [Roadside LiDAR Vehicle Detection](#):
     🟨🟨🟥🟥🟥🟥🟥🟥🟥🟥 (0%)
--   :sparkles: [XQuickEnergy](/xQuickEnergy/): 🟨🟨🟥🟥🟥🟥🟥🟥🟥🟥 (0%)
--   :rainbow: [Docsify Plugins](/docsify-plugins/): 🟨🟨🟥🟥🟥🟥🟥🟥🟥🟥 (0%)
+-   :sparkles: [XQuickEnergy](/projs/xQuickEnergy/): 🟨🟨🟥🟥🟥🟥🟥🟥🟥🟥 (0%)
+-   :rainbow: [Docsify Plugins](/projs/docsify-plugins/): 🟨🟨🟥🟥🟥🟥🟥🟥🟥🟥 (0%)
 
 ## :trophy: My Achievements / 我的成就 :trophy:
 
